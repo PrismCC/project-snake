@@ -481,7 +481,7 @@ void printScore(bool flag)
     qsort(list, number, sizeof(Score), compare);
 
     textColor(max.color);
-    cout << "最高分: " << max.score << "编号: " << max.no << endl;
+    cout << "最高分: " << max.score << "\t编号: " << max.no <<"\t剩余蛇数: "<<number <<endl;
     textColor();
     cout << "排名\t编号\t分数\t类别" << endl;
     for (int i = 0; i < min(5, number); ++i)
