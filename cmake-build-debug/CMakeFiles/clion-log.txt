@@ -1,0 +1,4 @@
+"D:\LenovoSoftstore\Install\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/BaiduNetdiskDownload/Programme/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/BaiduNetdiskDownload/Programme/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/BaiduNetdiskDownload/Programme/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S F:\code\clion\C++\projects\snake -B F:\code\clion\C++\projects\snake\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/code/clion/C++/projects/snake/cmake-build-debug

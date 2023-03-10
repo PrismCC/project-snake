@@ -1,0 +1,142 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/BaiduNetdiskDownload/Programme/SDL2-devel-2.0.18-mingw/SDL2-2.0.18/x86_64-w64-mingw32/include",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/include",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc",
+						"D:/BaiduNetdiskDownload/Programme/SDL2-devel-2.0.18-mingw/SDL2-2.0.18/x86_64-w64-mingw32/lib",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/x86_64-w64-mingw32/lib",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/BaiduNetdiskDownload/Programme/mingw64/bin/gcc.exe",
+				"version" : "12.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/BaiduNetdiskDownload/Programme/mingw64/include/c++/12.2.0",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/include/c++/12.2.0/x86_64-w64-mingw32",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/include/c++/12.2.0/backward",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/include",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib/gcc",
+						"D:/BaiduNetdiskDownload/Programme/SDL2-devel-2.0.18-mingw/SDL2-2.0.18/x86_64-w64-mingw32/lib",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/x86_64-w64-mingw32/lib",
+						"D:/BaiduNetdiskDownload/Programme/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/BaiduNetdiskDownload/Programme/mingw64/bin/g++.exe",
+				"version" : "12.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/BaiduNetdiskDownload/Programme/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
